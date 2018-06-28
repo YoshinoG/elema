@@ -1,0 +1,32 @@
+		html,body{height: 100%;}
+		
+		.conbannerr,.conbanners{
+			height: 1.3rem;
+			background: url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1134062404,2569822966&fm=27&gp=0.jpg);
+			/*background: url(bannerr.png);*/
+			/*background: yellowgreen;*/
+			background-size: 100% 100%;
+		}
+		.connav{
+			display: flex;
+			justify-content: space-between;
+			height: 2.7rem;
+			font: 0.25rem/0.3rem "微软雅黑";
+			/*text-align: center;*/
+		}
+		.concon{
+			flex: 1;
+			background: #F3FAFA;
+			margin: 0 2px 2px 0;
+			display: flex;
+			flex-direction: column;
+		}
+		.concon1{
+			text-align: center;
+		}
+		.conimg{
+			flex: 1;
+			background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530203968691&di=c954a9cf07f6bb0b6c44afedf67f7cc9&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D756229386%2C3943768622%26fm%3D214%26gp%3D0.jpg) no-repeat left bottom;
+			/*background: yellowgreen;*/
+			background-size: 100% ;
+		}
