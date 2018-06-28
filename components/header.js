@@ -1,6 +1,10 @@
 import React from 'react';
 import '../stylesheet/header.css'
 
+var bw = (document.documentElement.clientWidth/6.4)+"px";
+var htmlTag = document.getElementsByTagName("html")[0];
+htmlTag.style.fontSize=bw;
+
 class Header extends React.Component{
     constructor(props) {
         super(props)
