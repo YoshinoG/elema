@@ -5,43 +5,43 @@
 .pzyx{
 	display: flex;
 	justify-content: space-around;
-	padding: 0 12px;
+	padding: 0 1rem;
 	/*flex-direction: column;*/
 }
 .pzyx>div{
 	text-align: center;
 	font-weight: 900;
-	height: 80px;
+	height: 4rem;
 	width: 22%;
 	background: url(../img/a.jpg)no-repeat;
 	background-size:100% 100%;
 }
 h4{
-	height: 40px;
-	line-height: 40px;
+	height: 2rem;
+	line-height: 2rem;
 	text-align: center;
 }
 
 .tjsj{
-	padding: 0 12px;
-	height: 120px;
+	padding: 0 0.8rem;
+	height: 6rem;
 	display: flex;
 	/*flex-direction: column;*/
 }
 .rightcon{
 	width: 70%;
-	height: 120px;
+	height: 6rem;
 }
 .rightcon p{
-	height: 20px;
-	font-size: 10px;
-	line-height: 20px;
+	height: 1.2rem;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
 }
 
 
 .leftimg{
 	width: 28%;
-	height: 120px;
+	height: 6rem;
 	background: url(../img/a.jpg)no-repeat;
 	background-size:100% 100%;
 }

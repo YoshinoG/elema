@@ -12,6 +12,6 @@ import Header from './components/header';
 
 
 
-ReactDOM.render(<Content1><Header/><Content/></Content1>,document.getElementById('out'));
+ReactDOM.render(<Content1><Header/><Content/><App/></Content1>,document.getElementById('out'));
 
 
